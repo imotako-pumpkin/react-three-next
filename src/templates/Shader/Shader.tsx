@@ -1,11 +1,11 @@
 // @ts-nocheck
-import * as THREE from 'three'
-import { extend, useFrame } from '@react-three/fiber'
 import { shaderMaterial } from '@react-three/drei'
-import { mergeRefs } from 'react-merge-refs'
-import vertex from './glsl/shader.vert'
-import fragment from './glsl/shader.frag'
+import { extend, useFrame } from '@react-three/fiber'
 import { forwardRef, useRef } from 'react'
+import { mergeRefs } from 'react-merge-refs'
+import * as THREE from 'three'
+import fragment from './glsl/shader.frag'
+import vertex from './glsl/shader.vert'
 
 const ShaderImpl = shaderMaterial(
   {

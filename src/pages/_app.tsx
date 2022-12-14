@@ -1,7 +1,7 @@
-import { useRef } from 'react'
 import dynamic from 'next/dynamic'
-import Header from '@/config'
+import { useRef } from 'react'
 import Layout from '@/components/dom/Layout'
+import Header from '@/config'
 import '@/styles/index.css'
 
 const Scene = dynamic(() => import('@/components/canvas/Scene'), { ssr: true })

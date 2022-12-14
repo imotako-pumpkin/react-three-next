@@ -1,8 +1,8 @@
-import * as THREE from 'three'
-import { useMemo, useRef, useState } from 'react'
-import { useRouter } from 'next/router'
-import { useFrame } from '@react-three/fiber'
 import { Line, useCursor } from '@react-three/drei'
+import { useFrame } from '@react-three/fiber'
+import { useRouter } from 'next/router'
+import { useMemo, useRef, useState } from 'react'
+import * as THREE from 'three'
 
 export default function Logo({ route, ...props }) {
   const router = useRouter()
