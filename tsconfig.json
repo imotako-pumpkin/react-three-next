@@ -17,13 +17,13 @@
     "strict": false,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
-    "incremental": true,
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "node",
     "isolatedModules": true,
     "jsx": "preserve",
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+     "incremental": true,
   },
   "include": [
     "next-env.d.ts",
