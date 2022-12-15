@@ -1,8 +1,7 @@
 import dynamic from 'next/dynamic'
 
+import Blob from '@/components/canvas/Blob'
 import Instructions from '@/components/dom/Instructions'
-
-const Blob = dynamic(() => import('@/components/canvas/Blob'), { ssr: false })
 
 export default function Page(props) {
   return (
