@@ -6,7 +6,6 @@
 import { addEffect, useFrame } from '@react-three/fiber'
 import Lenis from '@studio-freight/lenis'
 import { useEffect, useRef } from 'react'
-
 import * as THREE from 'three'
 
 const state = {

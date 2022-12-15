@@ -4,6 +4,7 @@ import { extend, useFrame } from '@react-three/fiber'
 import { forwardRef, useRef } from 'react'
 import { mergeRefs } from 'react-merge-refs'
 import * as THREE from 'three'
+
 import fragment from './glsl/shader.frag'
 import vertex from './glsl/shader.vert'
 

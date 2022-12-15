@@ -1,5 +1,6 @@
 import dynamic from 'next/dynamic'
 import { useRef } from 'react'
+
 import Layout from '@/components/dom/Layout'
 import Header from '@/config'
 import '@/styles/index.css'
